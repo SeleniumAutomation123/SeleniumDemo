@@ -15,6 +15,8 @@ import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.Login;
 import com.crm.qa.util.TestUtil;
 
+
+//contact test
 public class ContactTest extends Testbase{
 	Login login;
 	HomePage homePage;
