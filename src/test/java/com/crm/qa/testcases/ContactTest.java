@@ -6,6 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.testng.log4testng.Logger;
 
 import com.crm.qa.base.Testbase;
 import com.crm.qa.pages.Contact;
@@ -20,6 +21,7 @@ public class ContactTest extends Testbase{
 	TestUtil util;
 	Contact contact;
 	Deals deals;
+	Logger log = Logger.getLogger(ContactTest.class);
 	
 	public ContactTest() {
 		super();
@@ -31,6 +33,7 @@ public class ContactTest extends Testbase{
 		initialization();
 		util= new TestUtil();
 		login = new Login();
+		log.info("**************Info***********");
 		homePage=login.login(prop.getProperty("username"), prop.getProperty("password"));
 		util.switchFrame();
 		contact=homePage.contactLink();
