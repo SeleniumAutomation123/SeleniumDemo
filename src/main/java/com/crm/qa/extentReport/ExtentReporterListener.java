@@ -63,6 +63,8 @@ public class ExtentReporterListener implements IReporter {
 				}
 
 				extent.endTest(test);
+				extent.flush();
+				extent.close();
 			}
 		}
 	}
