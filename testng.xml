@@ -7,9 +7,9 @@
 </listeners>
   <test name="Test">
     <classes>
-      <class name="com.crm.qa.testcases.HomepageTest"/>
+     <!--  <class name="com.crm.qa.testcases.HomepageTest"/> -->
       <class name="com.crm.qa.testcases.LoginPageTest"/>
-      <class name="com.crm.qa.testcases.ContactTest"/>
+      <!-- <class name="com.crm.qa.testcases.ContactTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

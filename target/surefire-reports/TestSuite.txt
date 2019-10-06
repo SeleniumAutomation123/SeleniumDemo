@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 3, Errors: 0, Skipped: 19, Time elapsed: 1,059.079 s <<< FAILURE! - in TestSuite
+setUp(com.crm.qa.testcases.ContactTest)  Time elapsed: 113.973 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: unable to discover open pages
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NUVRDQH', ip: '192.168.0.118', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005EEB13+1501971]
+	Ordinal0 [0x0056F6D1+980689]
+	Ordinal0 [0x004F765F+489055]
+	Ordinal0 [0x0048F254+62036]
+	Ordinal0 [0x0048BCDA+48346]
+	Ordinal0 [0x004A9800+169984]
+	Ordinal0 [0x004A942D+169005]
+	Ordinal0 [0x004A78EB+162027]
+	Ordinal0 [0x00490AC7+68295]
+	Ordinal0 [0x00491B40+72512]
+	Ordinal0 [0x00491AD9+72409]
+	Ordinal0 [0x00588F37+1085239]
+	GetHandleVerifier [0x0068D7ED+503293]
+	GetHandleVerifier [0x0068D580+502672]
+	GetHandleVerifier [0x006946AC+531644]
+	GetHandleVerifier [0x0068DFFA+505354]
+	Ordinal0 [0x00580606+1050118]
+	Ordinal0 [0x0058047F+1049727]
+	Ordinal0 [0x0058AF9B+1093531]
+	Ordinal0 [0x0058B103+1093891]
+	Ordinal0 [0x0058A095+1089685]
+	BaseThreadInitThunk [0x762C2369+25]
+	RtlExpandEnvironmentStrings [0x7792E5BB+523]
+	RtlExpandEnvironmentStrings [0x7792E58F+479]
+
+	at com.crm.qa.testcases.ContactTest.setUp(ContactTest.java:33)
+
+setUp(com.crm.qa.testcases.HomepageTest)  Time elapsed: 489.812 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (32, 222). Other element would receive the click: <div id="preloader">...</div>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NUVRDQH', ip: '192.168.0.118', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 958f41e930586536ea0f0278bf556dfc
+	at com.crm.qa.testcases.HomepageTest.setUp(HomepageTest.java:31)
+
+setUp(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 739.826 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NUVRDQH', ip: '192.168.0.118', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 384bfb3e97324636955b93ca0c434a05
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:23)
+

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,059.079" tests="23" errors="0" skipped="19" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SK_PC\eclipse-workspace\freecrm\target\test-classes;C:\Users\SK_PC\eclipse-workspace\freecrm\target\classes;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\SK_PC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\SK_PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\SK_PC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\SK_PC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\SK_PC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\SK_PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\SK_PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\SK_PC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\SK_PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\SK_PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\SK_PC\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\SK_PC\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\SK_PC\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\SK_PC\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\SK_PC\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\poi\3.16-beta2\poi-3.16-beta2.jar;C:\Users\SK_PC\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\SK_PC\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\SK_PC\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\SK_PC\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\SK_PC\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\SK_PC\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\SK_PC\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\SK_PC\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\SK_PC\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\SK_PC\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\SK_PC\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\SK_PC\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\SK_PC\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\SK_PC\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\SK_PC\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin"/>
+    <property name="sun.java.command" value="C:\Users\SK_PC\AppData\Local\Temp\surefire4680441355885708627\surefirebooter2903508822740602033.jar C:\Users\SK_PC\AppData\Local\Temp\surefire4680441355885708627 2019-10-06T23-13-28_333-jvmRun1 surefire8495820534332418427tmp surefire_09064264327073383285tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\SK_PC\eclipse-workspace\freecrm\target\test-classes;C:\Users\SK_PC\eclipse-workspace\freecrm\target\classes;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\SK_PC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\SK_PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\SK_PC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\SK_PC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\SK_PC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\SK_PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\SK_PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\SK_PC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\SK_PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\SK_PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\SK_PC\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\SK_PC\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\SK_PC\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\SK_PC\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\SK_PC\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\SK_PC\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\poi\3.16-beta2\poi-3.16-beta2.jar;C:\Users\SK_PC\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\SK_PC\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\SK_PC\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\SK_PC\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\SK_PC\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\SK_PC\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\SK_PC\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\SK_PC\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\SK_PC\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\SK_PC\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\SK_PC\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\SK_PC\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\SK_PC\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\SK_PC\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\SK_PC\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\SK_PC\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SK_PC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_45"/>
+    <property name="basedir" value="C:\Users\SK_PC\eclipse-workspace\freecrm"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SK_PC\AppData\Local\Temp\surefire4680441355885708627\surefirebooter2903508822740602033.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_45\lib\resources.jar;C:\Program Files\Java\jre1.8.0_45\lib\rt.jar;C:\Program Files\Java\jre1.8.0_45\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_45\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_45\lib\jce.jar;C:\Program Files\Java\jre1.8.0_45\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_45\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_45\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="user.name" value="SK_PC"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\SK_PC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SK_PC\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="user.dir" value="C:\Users\SK_PC\eclipse-workspace\freecrm"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/client;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/i386;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Git\cmd;C:\Users\SK_PC\AppData\Local\Microsoft\WindowsApps;;D:\Softwares\eclipse-java-photon-R-win32\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactTest" time="113.973">
+    <failure message="unknown error: unable to discover open pages&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005EEB13+1501971]&#10;	Ordinal0 [0x0056F6D1+980689]&#10;	Ordinal0 [0x004F765F+489055]&#10;	Ordinal0 [0x0048F254+62036]&#10;	Ordinal0 [0x0048BCDA+48346]&#10;	Ordinal0 [0x004A9800+169984]&#10;	Ordinal0 [0x004A942D+169005]&#10;	Ordinal0 [0x004A78EB+162027]&#10;	Ordinal0 [0x00490AC7+68295]&#10;	Ordinal0 [0x00491B40+72512]&#10;	Ordinal0 [0x00491AD9+72409]&#10;	Ordinal0 [0x00588F37+1085239]&#10;	GetHandleVerifier [0x0068D7ED+503293]&#10;	GetHandleVerifier [0x0068D580+502672]&#10;	GetHandleVerifier [0x006946AC+531644]&#10;	GetHandleVerifier [0x0068DFFA+505354]&#10;	Ordinal0 [0x00580606+1050118]&#10;	Ordinal0 [0x0058047F+1049727]&#10;	Ordinal0 [0x0058AF9B+1093531]&#10;	Ordinal0 [0x0058B103+1093891]&#10;	Ordinal0 [0x0058A095+1089685]&#10;	BaseThreadInitThunk [0x762C2369+25]&#10;	RtlExpandEnvironmentStrings [0x7792E5BB+523]&#10;	RtlExpandEnvironmentStrings [0x7792E58F+479]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: unable to discover open pages
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NUVRDQH', ip: '192.168.0.118', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005EEB13+1501971]
+	Ordinal0 [0x0056F6D1+980689]
+	Ordinal0 [0x004F765F+489055]
+	Ordinal0 [0x0048F254+62036]
+	Ordinal0 [0x0048BCDA+48346]
+	Ordinal0 [0x004A9800+169984]
+	Ordinal0 [0x004A942D+169005]
+	Ordinal0 [0x004A78EB+162027]
+	Ordinal0 [0x00490AC7+68295]
+	Ordinal0 [0x00491B40+72512]
+	Ordinal0 [0x00491AD9+72409]
+	Ordinal0 [0x00588F37+1085239]
+	GetHandleVerifier [0x0068D7ED+503293]
+	GetHandleVerifier [0x0068D580+502672]
+	GetHandleVerifier [0x006946AC+531644]
+	GetHandleVerifier [0x0068DFFA+505354]
+	Ordinal0 [0x00580606+1050118]
+	Ordinal0 [0x0058047F+1049727]
+	Ordinal0 [0x0058AF9B+1093531]
+	Ordinal0 [0x0058B103+1093891]
+	Ordinal0 [0x0058A095+1089685]
+	BaseThreadInitThunk [0x762C2369+25]
+	RtlExpandEnvironmentStrings [0x7792E5BB+523]
+	RtlExpandEnvironmentStrings [0x7792E58F+479]
+
+	at com.crm.qa.testcases.ContactTest.setUp(ContactTest.java:33)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 4944
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createContacttest" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped message="unknown error: unable to discover open pages&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005EEB13+1501971]&#10;	Ordinal0 [0x0056F6D1+980689]&#10;	Ordinal0 [0x004F765F+489055]&#10;	Ordinal0 [0x0048F254+62036]&#10;	Ordinal0 [0x0048BCDA+48346]&#10;	Ordinal0 [0x004A9800+169984]&#10;	Ordinal0 [0x004A942D+169005]&#10;	Ordinal0 [0x004A78EB+162027]&#10;	Ordinal0 [0x00490AC7+68295]&#10;	Ordinal0 [0x00491B40+72512]&#10;	Ordinal0 [0x00491AD9+72409]&#10;	Ordinal0 [0x00588F37+1085239]&#10;	GetHandleVerifier [0x0068D7ED+503293]&#10;	GetHandleVerifier [0x0068D580+502672]&#10;	GetHandleVerifier [0x006946AC+531644]&#10;	GetHandleVerifier [0x0068DFFA+505354]&#10;	Ordinal0 [0x00580606+1050118]&#10;	Ordinal0 [0x0058047F+1049727]&#10;	Ordinal0 [0x0058AF9B+1093531]&#10;	Ordinal0 [0x0058B103+1093891]&#10;	Ordinal0 [0x0058A095+1089685]&#10;	BaseThreadInitThunk [0x762C2369+25]&#10;	RtlExpandEnvironmentStrings [0x7792E5BB+523]&#10;	RtlExpandEnvironmentStrings [0x7792E58F+479]&#10;"/>
+  </testcase>
+  <testcase name="createContacttest" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped message="unknown error: unable to discover open pages&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005EEB13+1501971]&#10;	Ordinal0 [0x0056F6D1+980689]&#10;	Ordinal0 [0x004F765F+489055]&#10;	Ordinal0 [0x0048F254+62036]&#10;	Ordinal0 [0x0048BCDA+48346]&#10;	Ordinal0 [0x004A9800+169984]&#10;	Ordinal0 [0x004A942D+169005]&#10;	Ordinal0 [0x004A78EB+162027]&#10;	Ordinal0 [0x00490AC7+68295]&#10;	Ordinal0 [0x00491B40+72512]&#10;	Ordinal0 [0x00491AD9+72409]&#10;	Ordinal0 [0x00588F37+1085239]&#10;	GetHandleVerifier [0x0068D7ED+503293]&#10;	GetHandleVerifier [0x0068D580+502672]&#10;	GetHandleVerifier [0x006946AC+531644]&#10;	GetHandleVerifier [0x0068DFFA+505354]&#10;	Ordinal0 [0x00580606+1050118]&#10;	Ordinal0 [0x0058047F+1049727]&#10;	Ordinal0 [0x0058AF9B+1093531]&#10;	Ordinal0 [0x0058B103+1093891]&#10;	Ordinal0 [0x0058A095+1089685]&#10;	BaseThreadInitThunk [0x762C2369+25]&#10;	RtlExpandEnvironmentStrings [0x7792E5BB+523]&#10;	RtlExpandEnvironmentStrings [0x7792E58F+479]&#10;"/>
+  </testcase>
+  <testcase name="createContacttest" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped message="unknown error: unable to discover open pages&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005EEB13+1501971]&#10;	Ordinal0 [0x0056F6D1+980689]&#10;	Ordinal0 [0x004F765F+489055]&#10;	Ordinal0 [0x0048F254+62036]&#10;	Ordinal0 [0x0048BCDA+48346]&#10;	Ordinal0 [0x004A9800+169984]&#10;	Ordinal0 [0x004A942D+169005]&#10;	Ordinal0 [0x004A78EB+162027]&#10;	Ordinal0 [0x00490AC7+68295]&#10;	Ordinal0 [0x00491B40+72512]&#10;	Ordinal0 [0x00491AD9+72409]&#10;	Ordinal0 [0x00588F37+1085239]&#10;	GetHandleVerifier [0x0068D7ED+503293]&#10;	GetHandleVerifier [0x0068D580+502672]&#10;	GetHandleVerifier [0x006946AC+531644]&#10;	GetHandleVerifier [0x0068DFFA+505354]&#10;	Ordinal0 [0x00580606+1050118]&#10;	Ordinal0 [0x0058047F+1049727]&#10;	Ordinal0 [0x0058AF9B+1093531]&#10;	Ordinal0 [0x0058B103+1093891]&#10;	Ordinal0 [0x0058A095+1089685]&#10;	BaseThreadInitThunk [0x762C2369+25]&#10;	RtlExpandEnvironmentStrings [0x7792E5BB+523]&#10;	RtlExpandEnvironmentStrings [0x7792E58F+479]&#10;"/>
+  </testcase>
+  <testcase name="verifyContactSelectTest" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped message="unknown error: unable to discover open pages&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005EEB13+1501971]&#10;	Ordinal0 [0x0056F6D1+980689]&#10;	Ordinal0 [0x004F765F+489055]&#10;	Ordinal0 [0x0048F254+62036]&#10;	Ordinal0 [0x0048BCDA+48346]&#10;	Ordinal0 [0x004A9800+169984]&#10;	Ordinal0 [0x004A942D+169005]&#10;	Ordinal0 [0x004A78EB+162027]&#10;	Ordinal0 [0x00490AC7+68295]&#10;	Ordinal0 [0x00491B40+72512]&#10;	Ordinal0 [0x00491AD9+72409]&#10;	Ordinal0 [0x00588F37+1085239]&#10;	GetHandleVerifier [0x0068D7ED+503293]&#10;	GetHandleVerifier [0x0068D580+502672]&#10;	GetHandleVerifier [0x006946AC+531644]&#10;	GetHandleVerifier [0x0068DFFA+505354]&#10;	Ordinal0 [0x00580606+1050118]&#10;	Ordinal0 [0x0058047F+1049727]&#10;	Ordinal0 [0x0058AF9B+1093531]&#10;	Ordinal0 [0x0058B103+1093891]&#10;	Ordinal0 [0x0058A095+1089685]&#10;	BaseThreadInitThunk [0x762C2369+25]&#10;	RtlExpandEnvironmentStrings [0x7792E5BB+523]&#10;	RtlExpandEnvironmentStrings [0x7792E58F+479]&#10;"/>
+  </testcase>
+  <testcase name="verifyContactlabelTest" classname="com.crm.qa.testcases.ContactTest" time="0">
+    <skipped message="unknown error: unable to discover open pages&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005EEB13+1501971]&#10;	Ordinal0 [0x0056F6D1+980689]&#10;	Ordinal0 [0x004F765F+489055]&#10;	Ordinal0 [0x0048F254+62036]&#10;	Ordinal0 [0x0048BCDA+48346]&#10;	Ordinal0 [0x004A9800+169984]&#10;	Ordinal0 [0x004A942D+169005]&#10;	Ordinal0 [0x004A78EB+162027]&#10;	Ordinal0 [0x00490AC7+68295]&#10;	Ordinal0 [0x00491B40+72512]&#10;	Ordinal0 [0x00491AD9+72409]&#10;	Ordinal0 [0x00588F37+1085239]&#10;	GetHandleVerifier [0x0068D7ED+503293]&#10;	GetHandleVerifier [0x0068D580+502672]&#10;	GetHandleVerifier [0x006946AC+531644]&#10;	GetHandleVerifier [0x0068DFFA+505354]&#10;	Ordinal0 [0x00580606+1050118]&#10;	Ordinal0 [0x0058047F+1049727]&#10;	Ordinal0 [0x0058AF9B+1093531]&#10;	Ordinal0 [0x0058B103+1093891]&#10;	Ordinal0 [0x0058A095+1089685]&#10;	BaseThreadInitThunk [0x762C2369+25]&#10;	RtlExpandEnvironmentStrings [0x7792E5BB+523]&#10;	RtlExpandEnvironmentStrings [0x7792E58F+479]&#10;"/>
+  </testcase>
+  <testcase name="VerifyContactTest" classname="com.crm.qa.testcases.HomepageTest" time="1.261"/>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomepageTest" time="489.812">
+    <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (32, 222). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 958f41e930586536ea0f0278bf556dfc" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (32, 222). Other element would receive the click: <div id="preloader">...</div>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NUVRDQH', ip: '192.168.0.118', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 958f41e930586536ea0f0278bf556dfc
+	at com.crm.qa.testcases.HomepageTest.setUp(HomepageTest.java:31)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.crmpro.com/'
+Navigated to:'https://www.crmpro.com/'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on XP (958f41e930586536ea0f0278bf556dfc)] -> xpath: //input[@type='submit']]
+Exception occured: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (32, 222). Other element would receive the click: <div id="preloader">...</div>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NUVRDQH', ip: '192.168.0.118', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 958f41e930586536ea0f0278bf556dfc
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 28299
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1570384177.812][WARNING]: Timed out connecting to Chrome, retrying...
+Oct 06, 2019 11:19:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1570384181.876][WARNING]: Timed out connecting to Chrome, retrying...
+[1570384262.627][SEVERE]: Unable to receive message from renderer
+[1570384264.875][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomepageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyDealsTest" classname="com.crm.qa.testcases.HomepageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (32, 222). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 958f41e930586536ea0f0278bf556dfc"/>
+  </testcase>
+  <testcase name="verifyTitleTest" classname="com.crm.qa.testcases.HomepageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (32, 222). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 958f41e930586536ea0f0278bf556dfc"/>
+  </testcase>
+  <testcase name="verifylabelTest" classname="com.crm.qa.testcases.HomepageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (32, 222). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 958f41e930586536ea0f0278bf556dfc"/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPageTest" time="739.826">
+    <failure message="timeout&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 384bfb3e97324636955b93ca0c434a05" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NUVRDQH', ip: '192.168.0.118', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 384bfb3e97324636955b93ca0c434a05
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:23)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.crmpro.com/'
+Exception occured: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NUVRDQH', ip: '192.168.0.118', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 384bfb3e97324636955b93ca0c434a05
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 12275
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1570384692.727][WARNING]: Timed out connecting to Chrome, retrying...
+Oct 06, 2019 11:28:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1570384696.778][WARNING]: Timed out connecting to Chrome, retrying...
+[1570384899.288][SEVERE]: Timed out receiving message from renderer: 197.617
+[1570384899.311][SEVERE]: Timed out receiving message from renderer: -0.024
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyTitle" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 384bfb3e97324636955b93ca0c434a05"/>
+  </testcase>
+  <testcase name="verifyLogo" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 384bfb3e97324636955b93ca0c434a05"/>
+  </testcase>
+  <testcase name="LoginTest" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NUVRDQH&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SK_PC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 384bfb3e97324636955b93ca0c434a05"/>
+  </testcase>
+</testsuite>

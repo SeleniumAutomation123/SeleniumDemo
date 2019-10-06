@@ -1,3 +1,4 @@
+
 package com.crm.qa.extentReport;
 
 import java.io.File;
@@ -63,8 +64,6 @@ public class ExtentReporterListener implements IReporter {
 				}
 
 				extent.endTest(test);
-				extent.flush();
-				extent.close();
 			}
 		}
 	}
@@ -75,3 +74,4 @@ public class ExtentReporterListener implements IReporter {
 		return calendar.getTime();
 	}
 }
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomepageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifylabelTest"/>
+          <include name="tearDown"/>
+          <include name="verifyTitleTest"/>
+          <include name="verifyDealsTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomepageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyLogo"/>
+          <include name="tearDown"/>
+          <include name="VerifyTitle"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.ContactTest">
+        <methods>
+          <include name="verifyContactSelectTest"/>
+          <include name="createContacttest"/>
+          <include name="setUp"/>
+          <include name="verifyContactlabelTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
